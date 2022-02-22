@@ -63,7 +63,7 @@
   <node concept="1TIwiD" id="71BfgabeXrd">
     <property role="EcuMT" value="8099509535984309965" />
     <property role="TrG5h" value="Variable" />
-    <property role="34LRSv" value="variable" />
+    <property role="34LRSv" value="var" />
     <ref role="1TJDcQ" node="71BfgabeXx9" resolve="Statement" />
     <node concept="PrWs8" id="71BfgabeXre" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -178,6 +178,18 @@
       <property role="IQ2nx" value="8099509535984515680" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1fRUZqL$O1B">
+    <property role="EcuMT" value="1438878050741862503" />
+    <property role="TrG5h" value="ExpressionStatement" />
+    <ref role="1TJDcQ" node="71BfgabeXx9" resolve="Statement" />
+    <node concept="1TJgyj" id="1fRUZqL$O1C" role="1TKVEi">
+      <property role="IQ2ns" value="1438878050741862504" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="71BfgabfixA" resolve="Expression" />
     </node>
   </node>
 </model>

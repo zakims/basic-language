@@ -78,11 +78,7 @@
         <property role="3Vmsty" value="some string" />
       </node>
     </node>
-    <node concept="3Vness" id="71Bfgabg5iA" role="3VneJg" />
-    <node concept="3Vness" id="71Bfgabg5iT" role="3VneJg" />
-    <node concept="3Vness" id="71Bfgabg5hC" role="3VneJg" />
-    <node concept="3Vness" id="71Bfgabg5hk" role="3VneJg" />
-    <node concept="3Vness" id="71BfgabfUsS" role="3VneJg" />
+    <node concept="3Vness" id="1fRUZqLCG7Y" role="3VneJg" />
   </node>
 </model>
 
