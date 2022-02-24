@@ -23,10 +23,16 @@
         <reference id="1213106917431" name="defaultConcreteConcept" index="1MND4H" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="1M2fIO" id="71Bfgabfxp$">
-    <ref role="1M2myG" to="z3ge:71BfgabeXx9" resolve="Statement" />
+    <property role="3GE5qa" value="statements" />
     <ref role="1MND4H" to="z3ge:71BfgabeXCu" resolve="EmptyStatement" />
+    <ref role="1M2myG" to="z3ge:71BfgabeXx9" resolve="Statement" />
   </node>
 </model>
 
