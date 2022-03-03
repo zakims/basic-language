@@ -189,8 +189,8 @@
   <node concept="1TIwiD" id="71BfgabfJDt">
     <property role="EcuMT" value="8099509535984515677" />
     <property role="TrG5h" value="BStringLiteral" />
-    <property role="34LRSv" value="'" />
     <property role="3GE5qa" value="expressions.literals" />
+    <property role="34LRSv" value="&quot;" />
     <ref role="1TJDcQ" node="71BfgabfixA" resolve="BExpression" />
     <node concept="1TJgyi" id="71BfgabfJDw" role="1TKVEl">
       <property role="IQ2nx" value="8099509535984515680" />

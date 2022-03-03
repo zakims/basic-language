@@ -110,12 +110,6 @@
         </node>
       </node>
       <node concept="3Vness" id="5829u_LSsbf" role="zQUkQ" />
-      <node concept="3VneJf" id="5829u_LQWFg" role="zQUkQ">
-        <property role="TrG5h" value="y" />
-        <node concept="3VmKUz" id="5829u_LQWF$" role="3VmKUA">
-          <property role="1PmcM7" value="2" />
-        </node>
-      </node>
     </node>
     <node concept="3Vness" id="5829u_LQnZi" role="3VneJg" />
     <node concept="3Vness" id="5829u_LNXY8" role="3VneJg" />
