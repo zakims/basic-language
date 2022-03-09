@@ -168,7 +168,7 @@
             </node>
           </node>
           <node concept="3F1sOY" id="73H92G5FWvy" role="3EZMnx">
-            <ref role="1NtTu8" to="z3ge:73H92G5CnKQ" resolve="type" />
+            <ref role="1NtTu8" to="z3ge:73H92G5CnKQ" resolve="declaredType" />
           </node>
           <node concept="2iRfu4" id="73H92G5FWvk" role="2iSdaV" />
         </node>

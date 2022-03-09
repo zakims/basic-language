@@ -2,6 +2,7 @@
 <model ref="r:9c47ec8a-3ef7-4f60-a146-602cefb24d9c(test.language.generator.templates@generator)">
   <persistence version="9" />
   <languages>
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>

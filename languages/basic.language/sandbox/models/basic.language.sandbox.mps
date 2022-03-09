@@ -32,7 +32,6 @@
       <concept id="8099509535984289731" name="basic.language.structure.BWorkbook" flags="ng" index="3VnbF1">
         <child id="8099509535984309970" name="content" index="3VneJg" />
       </concept>
-      <concept id="8099509535984310814" name="basic.language.structure.BEmptyStatement" flags="ng" index="3Vness" />
       <concept id="8099509535984309965" name="basic.language.structure.BVariable" flags="ng" index="3VneJf">
         <child id="8137199868925017142" name="type" index="1Pj5wt" />
         <child id="8099509535984333732" name="value" index="3VmKUA" />
@@ -61,7 +60,6 @@
         <property role="1PmcM7" value="1" />
       </node>
     </node>
-    <node concept="3Vness" id="5829u_LSutb" role="3VneJg" />
     <node concept="3VneJf" id="73H92G5GrNf" role="3VneJg">
       <property role="TrG5h" value="c" />
       <node concept="1BdvqZ" id="73H92G5GrPo" role="3VmKUA">
@@ -102,17 +100,13 @@
           <property role="1PmcM7" value="1" />
         </node>
       </node>
-      <node concept="3Vness" id="5829u_LSsbn" role="zQUkQ" />
       <node concept="3VneJf" id="5829u_LSsaM" role="zQUkQ">
         <property role="TrG5h" value="a" />
         <node concept="3VmKUz" id="5829u_LSsb8" role="3VmKUA">
           <property role="1PmcM7" value="3" />
         </node>
       </node>
-      <node concept="3Vness" id="5829u_LSsbf" role="zQUkQ" />
     </node>
-    <node concept="3Vness" id="5829u_LQnZi" role="3VneJg" />
-    <node concept="3Vness" id="5829u_LNXY8" role="3VneJg" />
   </node>
   <node concept="zEQrz" id="5829u_LFm88">
     <property role="TrG5h" value="myTests" />

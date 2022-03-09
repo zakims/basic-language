@@ -81,7 +81,7 @@
     <node concept="1TJgyj" id="73H92G5CnKQ" role="1TKVEi">
       <property role="IQ2ns" value="8137199868925017142" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="type" />
+      <property role="20kJfa" value="declaredType" />
       <ref role="20lvS9" node="73H92G5CLF8" resolve="BType" />
     </node>
     <node concept="1TJgyj" id="71Bfgabf3e$" role="1TKVEi">
@@ -235,7 +235,7 @@
   <node concept="1TIwiD" id="4CodmcHbsft">
     <property role="EcuMT" value="5339076058323731421" />
     <property role="3GE5qa" value="expressions.binary.comparison" />
-    <property role="TrG5h" value="BLessThanOrEqual" />
+    <property role="TrG5h" value="BLessThanOrEqualExpression" />
     <property role="34LRSv" value="&lt;=" />
     <ref role="1TJDcQ" node="4CodmcHbOMf" resolve="BBinaryComparisonExpression" />
   </node>
