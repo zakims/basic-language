@@ -6,6 +6,8 @@
   </languages>
   <imports>
     <import index="ysz3" ref="r:2822d87a-ade6-4faa-a714-c8eea3114611(complex.datatypes.language.structure)" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
   </imports>
   <registry>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
@@ -17,7 +19,7 @@
       </concept>
     </language>
   </registry>
-  <node concept="bUwia" id="7tH61ZWSTQy">
+  <node concept="bUwia" id="4QN47cdqNbE">
     <property role="TrG5h" value="main" />
   </node>
 </model>

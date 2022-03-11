@@ -25,8 +25,8 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="7tH61ZWSTSR">
-    <ref role="1M2myG" to="ysz3:7tH61ZWSTQA" resolve="BaseEntityMember" />
-    <ref role="1MND4H" to="ysz3:7tH61ZWSTR7" resolve="EmptyEntityMember" />
+    <ref role="1M2myG" to="ysz3:7tH61ZWSTQA" resolve="BBaseEntityMember" />
+    <ref role="1MND4H" to="ysz3:7tH61ZWSTR7" resolve="BEmptyEntityMember" />
   </node>
 </model>
 

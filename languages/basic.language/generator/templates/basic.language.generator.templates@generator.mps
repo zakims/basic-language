@@ -11,6 +11,7 @@
     <import index="z3ge" ref="r:4e66826b-8ffc-4386-a046-6f1e6b6908cd(basic.language.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="z5kh" ref="r:a77cc2f9-6639-4e90-952d-dea481ce0c3c(basic.language.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
@@ -120,6 +121,7 @@
       <concept id="1112730859144" name="jetbrains.mps.lang.generator.structure.TemplateSwitch" flags="ig" index="jVnub">
         <child id="1167340453568" name="reductionMappingRule" index="3aUrZf" />
       </concept>
+      <concept id="1170725621272" name="jetbrains.mps.lang.generator.structure.MapSrcMacro_MapperFunction" flags="in" index="2kFOW8" />
       <concept id="1168619357332" name="jetbrains.mps.lang.generator.structure.RootTemplateAnnotation" flags="lg" index="n94m4">
         <reference id="1168619429071" name="applicableConcept" index="n9lRv" />
       </concept>
@@ -145,6 +147,9 @@
       <concept id="1167514355419" name="jetbrains.mps.lang.generator.structure.Root_MappingRule" flags="lg" index="3lhOvk">
         <reference id="1167514355421" name="template" index="3lhOvi" />
       </concept>
+      <concept id="1131073187192" name="jetbrains.mps.lang.generator.structure.MapSrcNodeMacro" flags="ln" index="1pdMLZ">
+        <child id="1170725844563" name="mapperFunction" index="2kGFt3" />
+      </concept>
       <concept id="982871510068000147" name="jetbrains.mps.lang.generator.structure.TemplateSwitchMacro" flags="lg" index="1sPUBX" />
       <concept id="1167756080639" name="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" flags="in" index="3zFVjK" />
       <concept id="1167770111131" name="jetbrains.mps.lang.generator.structure.ReferenceMacro_GetReferent" flags="in" index="3$xsQk" />
@@ -165,6 +170,7 @@
       <concept id="1176544042499" name="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" flags="nn" index="3JvlWi" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -885,8 +891,23 @@
     <property role="TrG5h" value="TypeTemplateSwitch" />
     <node concept="3aamgX" id="35YL0cFDYe" role="3aUrZf">
       <ref role="30HIoZ" to="z3ge:73H92G5CLF9" resolve="BIntegerType" />
-      <node concept="gft3U" id="35YL0cFDZz" role="1lVwrX">
-        <node concept="10Oyi0" id="35YL0cFE04" role="gfFT$" />
+      <node concept="gft3U" id="4QN47cdnJNO" role="1lVwrX">
+        <node concept="2VYdi" id="4QN47cdnJNW" role="gfFT$">
+          <node concept="1pdMLZ" id="4QN47cdnJOL" role="lGtFl">
+            <node concept="2kFOW8" id="4QN47cdpLE_" role="2kGFt3">
+              <node concept="3clFbS" id="4QN47cdpLEA" role="2VODD2">
+                <node concept="3clFbF" id="4QN47cdnJSO" role="3cqZAp">
+                  <node concept="2OqwBi" id="4QN47cdpPVk" role="3clFbG">
+                    <node concept="30H73N" id="4QN47cdnJSN" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="4QN47cdpQ83" role="2OqNvi">
+                      <ref role="37wK5l" to="z5kh:4QN47cdmyHM" resolve="getType" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3aamgX" id="35YL0cFE67" role="3aUrZf">
