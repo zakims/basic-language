@@ -12,7 +12,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="z5kh" ref="r:a77cc2f9-6639-4e90-952d-dea481ce0c3c(basic.language.behavior)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
-    <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
+    <import index="tpch" ref="r:00000000-0000-4000-0000-011c8959028d(jetbrains.mps.lang.structure.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -185,20 +185,9 @@
   <node concept="24kQdi" id="71BfgabeZvc">
     <ref role="1XX52x" to="z3ge:71BfgabeSv3" resolve="BWorkbook" />
     <node concept="3EZMnI" id="71BfgabeZve" role="2wV5jI">
-      <node concept="3EZMnI" id="71BfgabeZvM" role="3EZMnx">
-        <node concept="VPM3Z" id="71BfgabeZvO" role="3F10Kt" />
-        <node concept="3F0ifn" id="71BfgabeZvQ" role="3EZMnx">
-          <property role="3F0ifm" value="workbook" />
-        </node>
-        <node concept="3F0ifn" id="71BfgabeZw1" role="3EZMnx">
-          <property role="3F0ifm" value=":" />
-        </node>
-        <node concept="3F0A7n" id="71BfgabeZwe" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-        <node concept="2iRfu4" id="71BfgabeZvR" role="2iSdaV" />
+      <node concept="PMmxH" id="3EfT8TF8Hk$" role="3EZMnx">
+        <ref role="PMmxG" node="3EfT8TF8Hj8" resolve="WorkbookEditorHeader" />
       </node>
-      <node concept="3F0ifn" id="71Bfgabf3em" role="3EZMnx" />
       <node concept="3EZMnI" id="71Bfgabfeo6" role="3EZMnx">
         <node concept="3XFhqQ" id="71Bfgabfeop" role="3EZMnx" />
         <node concept="2iRfu4" id="71Bfgabfeo7" role="2iSdaV" />
@@ -349,7 +338,7 @@
     <node concept="3EZMnI" id="5829u_LQo3j" role="2wV5jI">
       <node concept="3F0ifn" id="5829u_LQo3q" role="3EZMnx">
         <property role="3F0ifm" value="if" />
-        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+        <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
       </node>
       <node concept="3F0ifn" id="5829u_LQo3_" role="3EZMnx">
         <property role="3F0ifm" value="(" />
@@ -383,6 +372,24 @@
         </node>
       </node>
       <node concept="l2Vlx" id="5829u_LQo3m" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="3EfT8TF8Hj8">
+    <property role="TrG5h" value="WorkbookEditorHeader" />
+    <ref role="1XX52x" to="z3ge:71BfgabeSv3" resolve="BWorkbook" />
+    <node concept="3EZMnI" id="3EfT8TF8Hja" role="2wV5jI">
+      <node concept="3EZMnI" id="3EfT8TF8Hjh" role="3EZMnx">
+        <node concept="VPM3Z" id="3EfT8TF8Hjj" role="3F10Kt" />
+        <node concept="3F0ifn" id="3EfT8TF8Hjr" role="3EZMnx">
+          <property role="3F0ifm" value="Workbook" />
+        </node>
+        <node concept="3F0A7n" id="3EfT8TF8HjH" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="2iRfu4" id="3EfT8TF8Hjm" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="3EfT8TF8HjL" role="3EZMnx" />
+      <node concept="2iRkQZ" id="3EfT8TF8Hjd" role="2iSdaV" />
     </node>
   </node>
 </model>

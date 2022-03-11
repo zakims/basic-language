@@ -94,7 +94,7 @@
       </concept>
       <concept id="5339076058323731419" name="basic.language.structure.BGreaterThanOrEqualExpression" flags="ng" index="1BdvqS" />
       <concept id="5339076058323731418" name="basic.language.structure.BGreaterThanExpression" flags="ng" index="1BdvqT" />
-      <concept id="5339076058323731421" name="basic.language.structure.BLessThanOrEqual" flags="ng" index="1BdvqY" />
+      <concept id="5339076058323731421" name="basic.language.structure.BLessThanOrEqualExpression" flags="ng" index="1BdvqY" />
       <concept id="5339076058323731420" name="basic.language.structure.BLessThanExpression" flags="ng" index="1BdvqZ" />
       <concept id="8099509535984515677" name="basic.language.structure.BStringLiteral" flags="ng" index="3Vmstv">
         <property id="8099509535984515680" name="value" index="3Vmsty" />
@@ -116,7 +116,7 @@
       </concept>
       <concept id="8099509535984310814" name="basic.language.structure.BEmptyStatement" flags="ng" index="3Vness" />
       <concept id="8099509535984309965" name="basic.language.structure.BVariable" flags="ng" index="3VneJf">
-        <child id="8137199868925017142" name="type" index="1Pj5wt" />
+        <child id="8137199868925017142" name="declaredType" index="1Pj5wt" />
         <child id="8099509535984333732" name="value" index="3VmKUA" />
       </concept>
     </language>

@@ -54,7 +54,7 @@
         <property id="8137199868926355628" name="value" index="1PmcM7" />
       </concept>
       <concept id="8099509535984309965" name="basic.language.structure.BVariable" flags="ng" index="3VneJf">
-        <child id="8137199868925017142" name="type" index="1Pj5wt" />
+        <child id="8137199868925017142" name="declaredType" index="1Pj5wt" />
         <child id="8099509535984333732" name="value" index="3VmKUA" />
       </concept>
     </language>
